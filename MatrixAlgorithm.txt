@@ -1,0 +1,59 @@
+﻿Algorithme  Tableau matrice
+ 
+   N, P, c: entier
+  
+  Tableau: T[N, P]
+
+
+Début
+    
+    c <-- 1
+
+    Pour i <-- 1 à N   pas 1 faire
+
+        Pour j <-- 1 à P  pas de 1 faire
+
+            T[i, j] <-- c
+
+            c <-- c + 1
+
+        fin Pour
+    fin Pour
+
+
+    Pour i <-- 1 à N pas  1 faire
+
+        Pour j <-- 1 à P pas  1 faire
+
+            Écrire(T[i, j])
+
+        fin Pour
+
+
+    fin Pour
+
+
+
+    Pour i <-- 1 à N pas 1 faire
+ 
+       Si i mod 2 = 0 alors
+
+            Pour j <-- P à 1 pas  -1 faire
+ 
+               Écrire(T[i, j])
+ 
+           fin Pour
+
+        Sinon
+ 
+           Pour j <-- 1 à P pas  1 faire
+ 
+               Écrire(T[i, j])
+
+            fin Pour
+
+        fin Si
+
+    fin Pour
+
+Fin
